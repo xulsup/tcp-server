@@ -1,0 +1,19 @@
+{
+  "extends": "standard",
+  "root": true,
+  "globals": {
+    "describe":true,
+    "before":true,
+    "it": true,
+    "after": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "rules": {
+      "camelcase": "off",
+      "no-var": "error",
+      "eqeqeq": 0,
+      "indent": ["error", 4]
+  }
+}

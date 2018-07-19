@@ -1,0 +1,35 @@
+{
+  "name": "babeltransformamodule",
+  "version": "1.0.0",
+  "description": "babel转单文件es6代码",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build && gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^3.2.2",
+    "lodash": "^4.17.10",
+    "log4js": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-uglify-es": "^1.0.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "node-minify": "^2.0.3",
+    "uglify-js": "^3.2.2",
+    "eslint": "^4.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
